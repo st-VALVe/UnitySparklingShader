@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Sparkling
+  m_Shader: {fileID: 4800000, guid: efa046b2194e0524c82991ba4b21da7e, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseRGB:
+        m_Texture: {fileID: 2800000, guid: 92193a86004de564caa1ba45bdd96195, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ClothMap:
+        m_Texture: {fileID: 2800000, guid: b1bbe2d8413ff494982c11a0149581ac, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlitterMap:
+        m_Texture: {fileID: 2800000, guid: e9055e6040e633f4aa3727e95f14a355, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _Glittermap:
+        m_Texture: {fileID: 2800000, guid: 30ae4c49467547b41b7d12bcb3f003f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normalmap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionCubemap:
+        m_Texture: {fileID: 8900000, guid: 64979ca230eea6841bf8e801558f2156, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Reflectioncubemap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SparklingMap:
+        m_Texture: {fileID: 2800000, guid: 7af31addba860914b865112b34fe3375, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularGlitter:
+        m_Texture: {fileID: 2800000, guid: 4d3291be61ac4ba46ac780f54532aada, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularGlitterColorMap:
+        m_Texture: {fileID: 2800000, guid: c15d471456625634ea1beb2ab7cb7710, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Specularglitter:
+        m_Texture: {fileID: 2800000, guid: 560c2dac3de07054380a26fbe275218c, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _hhhhhhhhhhh:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - vvxxww:
+        m_Texture: {fileID: 2800000, guid: 30ae4c49467547b41b7d12bcb3f003f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - vwwvvx:
+        m_Texture: {fileID: 8900000, guid: 34a763168147f4182a21b9fd004d67de, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - vwxwww:
+        m_Texture: {fileID: 2800000, guid: 560c2dac3de07054380a26fbe275218c, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - wvvxxv:
+        m_Texture: {fileID: 2800000, guid: 408cab5f33a18a04d8b84c9110482c40, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _FakeLight: 0.1
+    - _Fakelight: 0.0356
+    - _GlitterContrast: 5
+    - _GlitterPower: 2
+    - _Glittercontrast13: 1.35
+    - _Glitterpower: 5.47
+    - _GlitteryMaskScale: 2
+    - _GlitterySpeed: 0.5
+    - _Glitterymaskdotsscale: 2.27
+    - _Glitteryspeed01: 0.535
+    - _Glossiness: 7
+    - _MaskAdjust: 1
+    - _Maskadjust0515: 1
+    - _MasktransparencyDebug: 1
+    - _ReflectionCubemapBlur: 5
+    - _ReflectionCubemapPower: 0.5
+    - _Reflectioncubemappower: 0
+    - _Shininess: 2.1
+    - _SparklingContrast: 2
+    - _SparklingMaskScale: 2
+    - _SparklingPower: 4
+    - _SparklingSpeed: 0.5
+    - _SpecularContrast: 2
+    - _SpecularPower: 1.5
+    - _Specularcontrast13: 2.27
+    - _Specularpower05: 1.84
+    - _node_9024: 0
+    - _node_9024_copy: 0
+    - vvxwwx: 0.035
+    - vwwxwx: 5.5
+    - vxvvvw: 1.8
+    - vxwwww: 1.35
+    - wvvxxw: 2.3
+    - wvwvww: 0.15
+    - wvwwxv: 1
+    - wxxxvv: 2.3
+    - xvwvwx: 0.5
+    - xxwxww: 1
+    - xxwxwx: 7.05
+    m_Colors:
+    - _Color: {r: 0.07429244, g: 0, b: 0.26415092, a: 1}
+    - _GlitterColor: {r: 1, g: 0, b: 0.7197485, a: 1}
+    - _Glittercolor: {r: 1, g: 1, b: 1, a: 1}
+    - _Maincolor: {r: 0, g: 0, b: 0, a: 1}
+    - _SparklingColor: {r: 1, g: 0.2113207, b: 0.9298066, a: 1}
+    - vwxvww: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
